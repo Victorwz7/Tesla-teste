@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tesla teste</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <img src="./img/logo.png" alt="logo da tesla" class="Teste">
+
+    <ul>
+        <!--item 1-->
+        <li class="item">
+
+
+            <video src="./img/model-y.mp4" muted autoplay loop></video>
+            <div class="info-carro">
+                <h1> Model Y </h1>
+                <p class="parcelar"> Parcelas a partir de 500 dolares </p>
+            </div>
+
+            <div class="rodape">
+                <Button onclick="aparecerFormulario()">Comprar Agora</Button>
+                <button class="faca-teste">Teste Drive</button>
+                <p class="text-rodape">Comprou porque quis não tem garantia</p>
+            </div>
+        </li>
+
+        <!--item 2-->
+        <li class="item">
+
+
+            <img src="img/model-x.png" class="teslax" alt="tesla">
+            <div class="info-carro">
+                <h2> Saiba mais </h2>
+                <p class="parcelar2"> Parcelas a partir de 500 dolares </p>
+            </div>
+
+
+        </li>
+
+        <!--item 3-->
+        <li class="item">
+
+            <img src="img/model-3.png" class="tesla-3" alt="tesla-teste">
+            <div class="info-carro">
+                <h1> Model 3 </h1>
+                <p class="parcelar"> Compre agora o seu tesla </p>
+            </div>
+
+        </li>
+    </ul>
+
+
+    <div class="Formulario">
+        <form>
+            <h1>Preencha este Formulario</h1>
+            <!-- Input email -->
+            <div class="inpu-conteiner">
+                <input placeholder="email" type="email" required>
+                <img width="20" height="20" src="https://img.icons8.com/ios-filled/50/user.png" alt="user"/>
+            </div>
+            <!-- Input Numero -->
+            <div class="inpu-conteiner">
+                <input placeholder="Numero" type="tel" required>
+                <img width="20" height="20" src="https://img.icons8.com/ios-filled/50/phone.png" alt="phone"/>
+            </div>
+            <div class="button-container">
+                <button type="submit" class="submit">Enviar</button>
+                <button type="button" class="Voltar" onclick="desaparecerFormulario()">Fechar</button>
+            </div>
+        </form>
+    </div>
+    
+
+
+
+</body>
+
+<Script src="scripts.js"></Script> <!--Avisar qual e o arquivo-->
+
+</html>
